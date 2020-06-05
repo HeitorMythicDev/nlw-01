@@ -24,8 +24,7 @@ class PointsController{
          image_url: `http://192.168.15.8:3333/uploads/${point.image}`,//trocar pelo ip que estiver aparecendo no expo
     };    
     });
-
-    console.log(serializedPoints);
+   
         return response.json(serializedPoints);        
     }
 
@@ -84,8 +83,6 @@ async create(request : Request,response :Response){
     };
     
     const insertedIds = await trx('points').insert(point);
-
-    console.log(point);
     
     const point_id = insertedIds[0];
     
