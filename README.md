@@ -113,7 +113,7 @@ certeza de que está conectado na mesma rede que seu PC</li>
 expo start
 </code></pre>
 <p>Agora abra o aplicativo expo no celular e leia o QR code que aparece na janela aberta.</p>
-  <p>↑Com isso a aplicação web para cadastro dos pontos de coleta irá iniciar.↑</p>
+  <p>↑Com isso a aplicação mobile para visualizar os pontos de coleta irá iniciar.↑</p>
 
 
 <ul>
